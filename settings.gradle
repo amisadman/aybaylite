@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Aybay Lite"
+rootProject.name = "Aybay"
 include ':app'

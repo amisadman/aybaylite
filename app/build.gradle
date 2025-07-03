@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.amisadman.aybaylite'
+    namespace 'com.amisadman.aybay'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.amisadman.aybaylite"
+        applicationId "com.amisadman.aybay"
         minSdk 24
         targetSdk 35
         versionCode 1
@@ -21,6 +21,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
@@ -37,4 +42,7 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
-}
+    implementation 'com.airbnb.android:lottie:6.6.2'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.12.0'
+   }

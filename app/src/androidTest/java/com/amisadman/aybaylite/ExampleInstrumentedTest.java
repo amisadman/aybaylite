@@ -1,4 +1,4 @@
-package com.amisadman.aybaylite;
+package com.amisadman.aybay;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.amisadman.aybaylite", appContext.getPackageName());
+        assertEquals("com.amisadman.aybay", appContext.getPackageName());
     }
 }

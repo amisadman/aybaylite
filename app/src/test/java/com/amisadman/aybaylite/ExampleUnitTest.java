@@ -1,4 +1,4 @@
-package com.amisadman.aybaylite;
+package com.amisadman.aybay;
 
 import org.junit.Test;
 
